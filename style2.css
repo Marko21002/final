@@ -1,0 +1,28 @@
+div{
+    font-family: 'Rajdhani', sans-serif;
+    width: 700px;
+    height: 400px;
+    border: 2px solid gray;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 10%;
+    font-size: 30px;
+    box-shadow: 6px blue;
+    background-color: aqua;
+}
+input{
+    margin: 5px;
+}
+.reg{
+    width: 75px;
+   height: 30px;
+
+}
+.reset{
+    width: 75px;
+   height: 30px;
+}
+body{
+    background-image: url(https://64.media.tumblr.com/586497f9a790e24b0d82b3159a108fdd/de14e3a32ecc8269-22/s400x600/98c452f804ecf4e81e90f4cdab31db3cfc1599b3.gif);
+    background-size: cover;
+}

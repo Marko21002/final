@@ -1,0 +1,82 @@
+header{
+    display: flex;
+}
+#menu{
+    width: 250px;
+    height: 400px;
+    float: left;
+    border: 2px solid pink;
+    text-align: center;
+    background-image: url(https://vaporesources.neocities.org/backgrounds/P072_097.png);
+    background-size: cover;
+    font-family: 'Indie Flower', cursive;
+}
+img{
+    width: 325px;
+    height: 325px;
+    margin-left: 0px;
+}
+body{
+    background-image: url(https://vaporesources.neocities.org/earlyvapor/DV_OASIS.GIF);
+    background-size: cover;
+}
+
+.cat {
+    animation: scaleIn 3s ease-in infinite alternate;
+    position: absolute;
+    left: 250px;
+}
+.comp{
+    animation: scaleIn 6s ease-in infinite alternate;
+}
+@keyframes scaleIn {
+    0% {
+        transform: scale(1.0);
+    }
+
+    50% {
+        transform: scale(0.7);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
+}
+ul{
+    list-style: none;
+    font-size: 45px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+
+}
+#divivan{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 300px;
+    flex-direction: column;
+    width: 400px;
+    padding: 30px;
+    border: 2px solid black;
+    background-color: gray;
+    font-family: 'EB Garamond', serif;
+}
+button{
+    position: absolute;
+    right: 5%;
+    top: 10%;
+    width: 150px;
+    height: 35px;
+    background-color: aqua;
+}
+#gen{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    background-color: gray;
+    background-image: url(https://media1.giphy.com/media/QB9rH7NbUQfbN7wrf3/200w.gif?cid=6c09b9522x7plf6lw11dc3x0b94ntara6ohmwzl6yjdygh1f&rid=200w.gif&ct=g);
+}
